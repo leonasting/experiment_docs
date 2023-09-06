@@ -1,0 +1,10 @@
+site_name: Surface Experiments
+theme:
+  name: material
+nav:
+    - Home: index.md
+markdown_extensions:
+  - pymdownx.details
+plugins:
+  - search
+  - table-reader
