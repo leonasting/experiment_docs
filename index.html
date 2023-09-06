@@ -312,75 +312,68 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: right;">Id</th>
 <th style="text-align: left;">Experiment Name</th>
 <th style="text-align: left;">Environment Name</th>
 <th style="text-align: left;">Description</th>
+<th style="text-align: left;">Comments</th>
 <th style="text-align: left;">DDPG+HER</th>
 <th style="text-align: left;">DDPG</th>
 <th style="text-align: left;">TD3</th>
 <th style="text-align: left;">SAC</th>
-<th style="text-align: left;">Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: right;">1</td>
 <td style="text-align: left;">Diagonal Relocation-1</td>
 <td style="text-align: left;">surface_ellipsoid</td>
 <td style="text-align: left;">Full State - Obj pos[3],Targ- Obj[3], Joint Pos[2],Target_Pos[3]</td>
+<td style="text-align: left;">- Agent learns to stabalize it in the same position. Model - 0 - Agent learns to slowly reach Goal . Model - 1</td>
 <td style="text-align: left;">M0:  -250, M1:  +50</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">- Agent learns to stabalize it in the same position. Model - 0 - Agent learns to slowly reach Goal . Model - 1</td>
 </tr>
 <tr>
-<td style="text-align: right;">2</td>
 <td style="text-align: left;">Diagonal Relocation-2</td>
 <td style="text-align: left;">surface_ellipsoid2</td>
 <td style="text-align: left;">Full State + Touch Vector -Obj pos[3],Targ- Obj[3], Joint Pos[2],Target_Pos[3],Sensor Array[400]</td>
+<td style="text-align: left;">- Agent learns to stabalize it in the same position. Model - 0</td>
 <td style="text-align: left;">M0:  -250,</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">- Agent learns to stabalize it in the same position. Model - 0</td>
 </tr>
 <tr>
-<td style="text-align: right;">3</td>
 <td style="text-align: left;">Diagonal Relocation-3</td>
 <td style="text-align: left;">surface_ellipsoid3</td>
 <td style="text-align: left;">Full State + Touch Vector -Obj pos[3],Targ- Obj[3], Joint Pos[2],Target_Pos[3],Sensor Array[400]-&gt;Image(20,20)</td>
+<td style="text-align: left;">- Agent learns to stabalize it in the same position. Model - 0 '- Agent learns to slowly reach Goal . Model - 1</td>
 <td style="text-align: left;">M0:  -250, M1:  +300</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">- Agent learns to stabalize it in the same position. Model - 0 '- Agent learns to slowly reach Goal . Model - 1</td>
 </tr>
 <tr>
-<td style="text-align: right;">4</td>
 <td style="text-align: left;">Diagonal Relocation-4</td>
 <td style="text-align: left;">surface_ellipsoid4</td>
 <td style="text-align: left;">Partial State + Touch Vector -  Joint Pos[2],Target_Pos[3],Sensor Array[400]-&gt;Image(20,20)</td>
+<td style="text-align: left;">- Agent learns to reach goal at good time by rolling and attempts to stabalize it. Model - 0 '- Agent learns to reach goal at good time by tapping and attempts to stabalize it.  . Model - 1</td>
 <td style="text-align: left;">M0: +250, M1: +310</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">- Agent learns to reach goal at good time by rolling and attempts to stabalize it. Model - 0 '- Agent learns to reach goal at good time by tapping and attempts to stabalize it.  . Model - 1</td>
 </tr>
 <tr>
-<td style="text-align: right;">5</td>
 <td style="text-align: left;">Lateral Relocation-1</td>
 <td style="text-align: left;">surface_ellipsoid5</td>
 <td style="text-align: left;">Full State - Obj pos[3],Targ- Obj[3], Joint Pos[2],Target_Pos[3]</td>
+<td style="text-align: left;">- Agent learns to reach goal at good time by rolling and Fails to stabalize it and falls over.</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">M:  -97.5</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">- Agent learns to reach goal at good time by rolling and Fails to stabalize it and falls over.</td>
 </tr>
 <tr>
-<td style="text-align: right;">6</td>
 <td style="text-align: left;">Lateral Relocation-2</td>
 <td style="text-align: left;">surface_ellipsoid6</td>
 <td style="text-align: left;">nan</td>
@@ -391,48 +384,44 @@
 <td style="text-align: left;">nan</td>
 </tr>
 <tr>
-<td style="text-align: right;">7</td>
 <td style="text-align: left;">Lateral Relocation-3</td>
 <td style="text-align: left;">surface_ellipsoid7</td>
 <td style="text-align: left;">Full State + Touch Vector -Obj pos[3],Targ- Obj[3], Joint Pos[2],Target_Pos[3],Sensor Array[400]-&gt; mage(20,20)</td>
+<td style="text-align: left;">- Agent learns to reach very close to goal at good time by rolling and Fails to stabalize it and falls over.</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">M:  -95</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">- Agent learns to reach very close to goal at good time by rolling and Fails to stabalize it and falls over.</td>
 </tr>
 <tr>
-<td style="text-align: right;">8</td>
 <td style="text-align: left;">Lateral Relocation-4</td>
 <td style="text-align: left;">surface_ellipsoid8</td>
 <td style="text-align: left;">Partial State + Touch Vector -  Joint Pos[2], Target_Pos[3], Sensor Array[400]-&gt; Image(20,20)</td>
+<td style="text-align: left;">- Agent learns to reach very close to goal at good time by rolling and Fails to stabalize it and falls over.</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">M:  -95</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">- Agent learns to reach very close to goal at good time by rolling and Fails to stabalize it and falls over.</td>
 </tr>
 <tr>
-<td style="text-align: right;">9</td>
 <td style="text-align: left;">Lateral Relocation-5</td>
 <td style="text-align: left;">surface_ellipsoid9</td>
 <td style="text-align: left;">Partial State + Touch Vector - Joint Pos[2], Target_Pos[3],Sensor Array[400]-&gt; Image(20,20)</td>
+<td style="text-align: left;">-Not sure if agent learns anything, Agent is able to keep the bottle inside he surface but is unable to reach goal or keep the ball close to the goal .</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">M: -150/-55</td>
 <td style="text-align: left;">nan</td>
-<td style="text-align: left;">-Not sure if agent learns anything, Agent is able to keep the bottle inside he surface but is unable to reach goal or keep the ball close to the goal .</td>
 </tr>
 <tr>
-<td style="text-align: right;">10</td>
 <td style="text-align: left;">Lateral Relocation-6</td>
 <td style="text-align: left;">surface_ellipsoid10</td>
 <td style="text-align: left;">Partial State + Touch Vector - Joint Pos[2],Target_Pos[3],Sensor Array[400]-&gt; Image(20,20)</td>
+<td style="text-align: left;">- Agent does not learn to reach or stabalize the ball inside the surface. The agent is unable to keep the ball inside the surface.</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">nan</td>
 <td style="text-align: left;">M: -146</td>
-<td style="text-align: left;">- Agent does not learn to reach or stabalize the ball inside the surface. The agent is unable to keep the ball inside the surface.</td>
 </tr>
 </tbody>
 </table>
